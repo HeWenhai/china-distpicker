@@ -16,7 +16,7 @@ class Distpicker extends Field
      * @var array
      */
     protected static $js = [
-        'vendor/laravel-admin-ext/china-distpicker/dist/distpicker.min.js'
+        'vendor/laravel-admin-ext/china-distpicker/dist/distpicker.js'
     ];
 
     /**

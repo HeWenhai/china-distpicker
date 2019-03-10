@@ -8,7 +8,7 @@
         <div id="{{ $id }}" {!! $attributes !!}>
             <select class="form-control" name="{{$name['province']}}"></select>
             <select class="form-control" name="{{$name['city']}}"></select>
-            <select class="form-control" name="{{$name['district']}}"></select>
+            {{-- <select class="form-control" name="{{$name['district']}}"></select> --}}
         </div>
         @include('admin::form.help-block')
 
